@@ -1,0 +1,23 @@
+bin/
+build/
+out/
+.settings/
+.project
+.classpath
+*.iml
+*.ipr
+*.iws
+*.idea
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+*.sw?

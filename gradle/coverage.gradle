@@ -1,0 +1,33 @@
+
+jacocoTestCoverageVerification {
+    violationRules {
+        rule {
+            limit {
+                counter = 'INSTRUCTION'
+                minimum = 1.0
+            }
+            limit {
+                counter = 'BRANCH'
+                minimum = 1.0
+            }
+            limit {
+                counter = 'LINE'
+                minimum = 1.0
+            }
+            limit {
+                counter = 'COMPLEXITY'
+                minimum = 1.0
+            }
+            limit {
+                counter = 'METHOD'
+                minimum = 1.0
+            }
+            limit {
+                counter = 'CLASS'
+                minimum = 1.0
+            }
+        }
+    }
+}
+
+jacocoTestCoverageVerification.dependsOn check

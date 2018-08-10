@@ -1,0 +1,21 @@
+ext.title = "Sample Gradle Project"
+group "com.sample"
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "pl.allegro.tech.build:axion-release-plugin:1.9.2"
+        classpath 'info.solidsoft.gradle.pitest:gradle-pitest-plugin:1.3.0'
+    }
+}
+apply from: "https://raw.githubusercontent.com/kurra/gradleScripts/master/javaPlugins.gradle"
+
+dependencies {
+
+    compile libs.commons.lang 
+
+    testCompile libs.test
+}
+
