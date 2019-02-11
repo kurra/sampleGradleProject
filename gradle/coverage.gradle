@@ -1,4 +1,3 @@
-
 jacocoTestCoverageVerification {
     violationRules {
         rule {
@@ -29,5 +28,3 @@ jacocoTestCoverageVerification {
         }
     }
 }
-
-jacocoTestCoverageVerification.dependsOn check
